@@ -17,7 +17,7 @@ const game (user, cpu) {
   else if(cpu=='G' && user=="S")
     return "You lose...hahahaha!!"
   else if(cpu=='G' && user=="W")
-    return "user"
+    return "user" // no change required
 }
 
 let result=game(cpu,user)
