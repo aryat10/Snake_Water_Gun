@@ -22,4 +22,4 @@ const game (user, cpu) {
 
 let result=game(cpu,user)
 document.write(`Your choice:${user} and Opponent choice:${cpu}`)
-document.write(`The Winner is ${result}`)   
+document.write(`The Winner is ${result}`) 
