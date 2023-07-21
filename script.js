@@ -5,7 +5,7 @@ let cpu = ["S" , "W" , "G"];
 
 const game (user, cpu) {
   if(cpu==user)
-    return "Choices matched"
+    return "Choices matched" // checking the process 
   else if(cpu=='S'&& user=='W')
     return "cpu"
   else if(cpu=='S'&& user=='G')
